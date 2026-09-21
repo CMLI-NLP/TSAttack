@@ -25,7 +25,7 @@ from ...attack_assist.filter_words import get_default_filter_words
 # modification end
 
 # modification begin
-class TSCheaterPlus(ClassificationAttacker):
+class TSDeceiver(ClassificationAttacker):
 # modification end
     @property
     def TAGS(self):

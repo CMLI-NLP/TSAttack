@@ -22,7 +22,7 @@ def main():
     # attacker = open_attack.attackers.TSTricker_w(lang="tibetan")
     # attacker = open_attack.attackers.TSCheater_s(lang="tibetan")
     # attacker = open_attack.attackers.TSCheater_w(lang="tibetan")
-    attacker = open_attack.attackers.TSCheaterPlus(lang="tibetan")
+    attacker = open_attack.attackers.TSDeceiver(lang="tibetan")
 
     print("Loading Victim ...")
     victim = OpenAttack.loadVictim("XLM-RoBERTa.CINO-large-v2+TU_SA")
